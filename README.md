@@ -1,7 +1,7 @@
-bootstrap-notify
+bootstrap-notify-scss
 ================
 
-Bootstrap alert system made better.
+This is a port of the LESS version of bootstrap-notify to SCSS.
 
 ### Copyright
 
