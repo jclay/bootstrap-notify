@@ -1,5 +1,5 @@
 /**
- * Bootstrap-notify.less
+ * Bootstrap-notify.css.scss
  *
  * @author Vitaly @Laboratory
  * @author Nijiko Yonskai
@@ -7,32 +7,32 @@
  * @copyright 2013 Nijiko Yonskai
  */
 
-@right: 10px;
-@left: @right;
-@top: 25px;
-@bottom: @top;
+$right: 10px;
+$left: $right;
+$top: 25px;
+$bottom: $top;
 
 .notifications {
   position: fixed;
 
   &.top-right {
-    right: @right;
-    top: @top;
+    right: $right;
+    top: $top;
   }
 
   &.top-left {
-    left: @left;
-    top: @top;
+    left: $left;
+    top: $top;
   }
 
   &.bottom-left {
-    left: @left;
-    bottom: @bottom;
+    left: $left;
+    bottom: $bottom;
   }
 
   &.bottom-right {
-    right: @right;
-    bottom: @bottom;
+    right: $right;
+    bottom: $bottom;
   }
 
   > div {
